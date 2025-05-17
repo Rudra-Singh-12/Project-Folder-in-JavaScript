@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: large;
+    margin: 10px 20px;
+}
+button{
+    font-size: large;
+    height: auto;
+    width: auto;
+    background: linear-gradient(to left,#b46d0a,purple);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #f6f6f6;
+}
+button:hover{
+    transform: scale(1.1);
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    margin: 10px;
+    border: 2px solid ;
+}
